@@ -28,7 +28,7 @@ import org.omegat.core.data.SourceTextEntry;
 
 public class OpenAITranslate extends BaseCachedTranslate {
 
-    private static final String API_URL = "https://api.openai.com/v1/chat/completions";
+    private static final String API_URL = "https://api.openai-proxy.org/v1/chat/completions";
     private static final String BASE_PROMPT = 
             "You are a translation tool integrated in a CAT (Computer-Assisted Translation) tool. Translate the following text from %s to %s. Preserve the tags in the text and keep any segmentations intact.\n\n";
     
